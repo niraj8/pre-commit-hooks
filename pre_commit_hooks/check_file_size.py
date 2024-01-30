@@ -8,8 +8,6 @@ def check_file_size(filenames: Sequence[str]) -> int:
     retv = 0
     for file_path in filenames:
         file_size_mb = os.path.getsize(file_path) / (1024 * 1024)  # Convert bytes to megabytes
-        print(f"Checking file: {file_path}")
-        print(f"File size: {file_size_mb} MB")
         if file_size_mb > MAX_FILE_SIZE_MB:
             print(f"File {file_path} exceeds the maximum allowed size of {MAX_FILE_SIZE_MB} MB.")
             retv = 1
