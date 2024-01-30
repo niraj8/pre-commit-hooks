@@ -1,0 +1,5 @@
+- id: check-file-size
+  name: Check File Size
+  entry: check_file_size.py
+  language: python
+  types: [file]
