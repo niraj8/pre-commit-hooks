@@ -1,5 +1,5 @@
 - repo: https://github.com/DevSecOps-AppSec/pre-commit-hooks
-  rev: main  # Use the version you want
+  rev: v1.0.1  # Use the version you want
   hooks:
     - id: check-file-size
       name: Check File Size
