@@ -1,5 +1,6 @@
 - id: check-file-size
   name: Check File Size
-  entry: check_file_size.py
+  entry: check-file-size
   language: python
   types: [file]
+  pass_filenames: true
