@@ -5,4 +5,4 @@
       name: Check File Size
       entry: check_file_size.py
       language: python
-      types: [python]
+      types: [file]
